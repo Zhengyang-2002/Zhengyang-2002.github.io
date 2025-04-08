@@ -4,6 +4,8 @@ layout: page
 
 # About Me
 
+![image-20250408183521082](assets/image-20250408183521082.png)
+
 <img src="https://caihanlin.com/caihanlin.jpg" class="floatpic">
 
 Here is Zhengyang (Lance, 蔡汉霖)**.<br>
