@@ -2,6 +2,8 @@
 
 <!-- <h4>{{ site.owner.name }}</h4> -->
 
+<i class="fab fa-kaggle"></i>  <!-- Font Awesome 5+ 的Kaggle图标 -->
+
 <p>{{ site.owner.bio }}</p>
 
 {% if site.owner.email %}<p style="text-indent:0;margin-top:1.5em;"><a href="mailto:{{ site.owner.email }}" target="_blank"><i class="icon-mail"></i> Email</a></p>{% endif %}
@@ -32,5 +34,12 @@
 
 {% if site.owner.bilibili %}<p style="text-indent:0;"><a href="https://space.bilibili.com/{{ site.owner.bilibili }}"><img src="https://caihanlin.com/images/logo/icons8-retro-tv-100.png" width="15" height="15"></i> Bilibili</a></p>{% endif %}
 
+{% if site.owner.kaggle %}
+  <p style="text-indent:0;">
+    <a href="https://kaggle.com/{{ site.owner.kaggle }}">
+      <i class="icon-kaggle"></i> Kaggle
+    </a>
+  </p>
+{% endif %}
 
 <!-- Lastly modified by Hanlin CAI in 2023/10/15 -->
