@@ -1,6 +1,6 @@
 <img src="{{ site.url }}/images/{{ site.owner.avatar }}" class="bio-photo" alt="{{ site.owner.name }} bio photo" width="100" height="100"></a>
 
-<!-- <h4>{{ site.owner.name }}</h4> -->
+<h4>{{ site.owner.name }}
 
 <i class="fab fa-kaggle"></i>  <!-- Font Awesome 5+ 的Kaggle图标 -->
 
